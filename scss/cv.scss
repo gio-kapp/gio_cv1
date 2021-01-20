@@ -1,0 +1,524 @@
+// mtavari contenti
+.mtavari{
+    max-width: 1200px;
+    width: 100%;
+    height: 1200px;
+    margin: auto;
+    background: rgb(70, 6, 43);
+    // marcxela kontenti
+    .left{
+        // display: inline-block;
+        float: left;
+        width: 40%;
+        height: 100%;
+        background-color: rgba(127, 255, 212, 0.501);
+        margin: 0%;
+        padding-top: 15px;
+        .photo{
+            
+            margin: auto;
+            width: 40%;
+            height: 15%;
+            border-radius: 50%;
+            transition: background 2s;
+        }
+        .about_me{
+            transition: 2s;
+            margin: 0% 0% 0% 25% ;
+            width: 50%;
+            height: 35%;
+            padding: 20px;
+            // background-color: rgb(0, 255, 8);
+            // border: 1px solid green;
+            .about{
+                font-family: 'Yusei Magic', sans-serif;
+                width: 340px;
+                padding-bottom: 7px;
+                border-bottom: 2px solid purple;
+                transition: 2s ;
+            }
+            .about_par{
+                font-family: 'Open Sans Condensed', sans-serif;
+                margin-top: 20px;
+                text-align: justify;
+                font-size: 20px;
+            }
+        }
+        .reference{
+            margin: 0% 0% 0% 25%;
+            width: 50%;
+            height: 35%;
+            background-color: rgb(0, 229, 255);
+        }
+        .contact{
+            transition: 2s;
+            margin: 0% 0% 0% 25%;
+            // width: 50%;
+            height: 15%;
+            padding: 20px;
+            // background-color: yellow;
+            .about1{
+                font-family: 'Yusei Magic', sans-serif;
+                width: 342px;
+                padding-bottom: 7px;
+                border-bottom: 2px solid purple;
+                transition:  border-bottom 2s ;
+            }
+            .about_par1{
+                font-family: 'Potta One', cursive;
+                margin-top: 20px;
+                text-align: justify;
+            }
+        }
+    }
+    // marjvena kontenti
+    .right_left{
+        // display: inline-block;
+        float: left;
+        width: 60%;
+        height: 100%;
+        background: rgba(71, 83, 75, 0.6);
+        // marjvena pirveli
+        .giorgi{
+            position: relative;
+            float: left;
+            width: 100%;
+            height: 15%;
+            // background: blue;
+            padding: 20px;
+            h1{
+                margin-bottom: 7px;
+                font-family: 'Yusei Magic', sans-serif;
+                font-size: 25px;
+                margin-left: 15.5px;
+            }
+            .xazi{
+                height: 2px;
+                width: 60px;
+                background: gray;
+                margin-top: 7px;
+                margin-left: 15.5px;
+            }
+            .warwera_xazit{
+                font-family: 'Yusei Magic', sans-serif;
+                // font-size: 22px;
+                position: absolute;
+                left: 10%;
+                bottom: 0;
+                border-bottom: 2px solid gray;
+                width: 90%;
+                padding-bottom: 7px;
+            }
+        }
+        // marjvena_marcxena pirveli bloki meore
+        .xazi_rgoli{
+            position: relative;
+            float: left;
+            width: 10%;
+            height: 35%;
+            // background: rgb(47, 255, 158);
+            .vertical{
+                position: absolute;
+                width: 1px;
+                height: 100%;
+                background: gray;
+                left: 50%;
+                transform: translate(-50%);
+            }
+            .rgoli1{
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                // border: 1px solid gray;
+                background: gray;
+                border-radius: 50%;
+                left: 50%;
+                transform: translate(-50%);
+                // top:20px;
+                top:105%;
+                animation-name: rgoli1;
+                animation-duration: 2s;
+                animation-fill-mode: forwards;
+                animation-timing-function: ease-out;
+
+                
+            }
+            .rgoli2{
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                // border: 1px solid gray;
+                background: gray;
+                border-radius: 50%;
+                left: 50%;
+                transform: translate(-50%);
+                // top:156px;
+                top:105%;
+                animation-name: rgoli2;
+                animation-duration: 2s;
+                animation-fill-mode: forwards;
+                animation-timing-function: ease-in-out;
+                
+            }
+            .rgoli3{
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                // border: 1px solid gray;
+                background: gray;
+                border-radius: 50%;
+                left: 50%;
+                transform: translate(-50%);
+                // top:292px;
+                top:105%;
+                animation-name: rgoli3;
+                animation-duration: 2s;
+                animation-fill-mode: forwards;
+                animation-timing-function: ease-in;
+            }
+            
+        } 
+        // marjvena_marcxena meore
+        .clebi{
+            float: left;
+            width: 20%;
+            height: 35%;
+            // background: blueviolet;
+            .celi{
+                width: 50%;
+                // margin: auto;
+                margin-top: 20px;
+            }
+            .celi1{
+                width: 50%;
+                // margin: auto;
+                margin-top: 120px;
+            }
+            .celi2{
+                width: 50%;
+                // margin: auto;
+                margin-top: 120px;
+            }
+        }
+        // marjvena_marcxena mesame
+        .nawerebi{
+            font-family: 'Open Sans Condensed', sans-serif;
+            float: left;
+            width: 70%;
+            height: 35%;
+            // background:pink;
+            padding: 20px;
+            
+            .web_qveda{
+                padding: 10px 0 10px 0;
+            }
+            .text{
+                text-align: justify;
+            }
+            .web{
+                margin-top: 35px;
+            }
+        }
+        // bloki mesame marcxena pirveli
+        .xazi_rgoli1{
+            position: relative;
+            float: left;
+            width: 10%;
+            height: 30%;
+            // background: rgb(255, 47, 213);
+            .vertical{
+                position: absolute;
+                width: 1px;
+                height: 75.5%;
+                background: gray;
+                left: 50%;
+                transform: translate(-50%);
+            }
+            .rgoli1{
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                // border: 1px solid gray;
+                background: gray;
+                border-radius: 50%;
+                left: 50%;
+                transform: translate(-50%);
+                // top:20px;
+                top: -135%;
+                animation-name: rgoli4;
+                animation-duration: 2s;
+                animation-fill-mode: forwards;
+                animation-timing-function: ease;
+            }
+            .rgoli2{
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                // border: 1px solid gray;
+                background: gray;
+                border-radius: 50%;
+                left: 50%;
+                transform: translate(-50%);
+                // top:156px;
+                top: -135%;
+                animation-name: rgoli5;
+                animation-duration: 2s;
+                animation-timing-function: ease-out;
+                animation-fill-mode: forwards;
+            }
+            // .rgoli3{
+            //     position: absolute;
+            //     width: 16px;
+            //     height: 16px;
+            //     // border: 1px solid gray;
+            //     background: gray;
+            //     border-radius: 50%;
+            //     left: 50%;
+            //     transform: translate(-50%);
+            //     top:292px;
+            // }
+        } 
+        // bloki mesame marcxena meore
+        .clebi1{
+            float: left;
+            width: 20%;
+            height: 30%;
+            // background: rgb(43, 220, 226);
+            .celi{
+                width: 50%;
+                // margin: auto;
+                margin-top: 20px;
+            }
+            .celi1{
+                width: 50%;
+                // margin: auto;
+                margin-top: 120px;
+            }
+            .celi2{
+                width: 50%;
+                // margin: auto;
+                margin-top: 120px;
+            }
+        }
+        // bloki mesame marcxena mesame
+        .nawerebi1{
+            font-family: 'Open Sans Condensed', sans-serif;
+            float: left;
+            width: 70%;
+            height: 30%;
+            // background:rgb(192, 255, 226);
+            padding: 20px;
+            .web_qveda{
+                padding: 10px 0 10px 0;
+            }
+            .text{
+                text-align: justify;
+            }
+            .web{
+                margin-top: 35px;
+            }
+        }
+        // bolo nawili
+        .bolo{
+            position: relative;
+            float: left;
+            width: 100%;
+            height: 16.21%;
+            // background: rgb(0, 255, 106);
+            .skills{
+                font-family: 'Yusei Magic', sans-serif;
+                position: absolute;
+                top:17%;
+                left: 10%;
+                border-bottom: 2px solid gray;
+                width: 90%;
+                padding-bottom: 7px;
+                z-index: 1;
+            }
+            .personal{
+                position: absolute;
+                float: left;
+                width: 50%;
+                // background: blue;
+                height: 100%;
+                .pers{
+                    font-family: 'Open Sans Condensed', sans-serif;
+                    font-weight: 800;
+                    position: absolute;
+                    top:40.5%;
+                    left: 20%;
+                }
+                .qveda{
+                    font-family: 'Open Sans Condensed', sans-serif;
+                    font-weight: 800;
+                    position: absolute;
+                    left: 20%;
+                    top:55%;
+                }
+                .borders{
+                    position: absolute;
+                    width: 197.5px;
+                    height: 55.5px;
+                    // background: yellow;
+                    left: 45%;
+                    top:55%;
+                    .mini_border{
+                        height: 7px;
+                        width: 100%;
+                        background: gray;
+                        margin-top: 5px;
+                        border-radius: 15px;
+                    }
+                    .mini_border1{
+                        height: 7px;
+                        width: 100%;
+                        background: gray;
+                        margin-top: 14px;
+                        border-radius: 15px;
+                    }
+                    .mini_border2{
+                        height: 7px;
+                        width: 100%;
+                        background: gray;
+                        margin-top: 14px;
+                        border-radius: 15px;
+                    }
+                  
+                }
+               
+                
+            }
+            .professional{
+                position: absolute;
+                float: left;
+                width: 50%;
+                // background: rgb(0, 174, 255);
+                height: 100%;
+                left: 50%;
+                .prof{
+                    font-family: 'Open Sans Condensed', sans-serif;
+                    font-weight: 800;
+                    position: absolute;
+                    top:40.5%;
+                    left: 20%;
+                }
+                 .qveda{
+                    font-family: 'Open Sans Condensed', sans-serif;
+                    font-weight: 800;
+                    position: absolute;
+                    left: 20%;
+                    top:55%;
+                }
+                .borders{
+                    position: absolute;
+                    width: 197.5px;
+                    height: 55.5px;
+                    // background: yellow;
+                    left: 45%;
+                    top:55%;
+                    .mini_border{
+                        height: 7px;
+                        width: 100%;
+                        background: gray;
+                        margin-top: 7px;
+                        border-radius: 15px;
+                    }
+                    .mini_border1{
+                        height: 7px;
+                        width: 100%;
+                        background: gray;
+                        margin-top: 14px;
+                        border-radius: 15px;
+                    }
+                    .mini_border2{
+                        height: 7px;
+                        width: 100%;
+                        background: gray;
+                        margin-top: 14px;
+                        border-radius: 15px;
+                    }
+                }
+               
+            }
+        }
+        
+    }
+}
+
+
+// chamatebuli
+.chamatema{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 3.79%;
+    // background: rgba(0, 0, 0, 0.522);
+    .cham{
+        font-family: 'Yusei Magic', sans-serif;
+        position: absolute;
+        left: 10%;
+        bottom: 0;
+        border-bottom: 2px solid gray;
+        width: 90%;
+        padding-bottom: 7px;
+    }
+} 
+
+
+// testi
+// .Test{
+//     position: relative;
+//     float: left;
+//     width: 100px;
+//     height: 500px;
+//     background: gray;
+//     .vertikali{
+//         position: absolute;
+//         width: 2px;
+//         height: 100%;
+//         background: yellow;
+//         left: 50%;
+//         transform: translate(-50%);
+//     }
+//     .rgoli1{
+//         position: absolute;
+//         width: 17px;
+//         height: 17px;
+//         // border: 1px solid green;
+//         border-radius: 50%;
+//         background: red;
+//         left: 50%;
+//         transform: translate(-50%);
+//         animation-name: exx;
+//         animation-duration: 2s;
+//         animation-direction: reverse;
+        
+        
+//     }
+// }
+// @keyframes exx {
+//     0% {background: red; top:0; left: 50%; transform: translate(-50%);}
+//     100% {background: forestgreen; top:100%; left: 50%; transform: translate(-50%);}
+// }
+
+@keyframes rgoli1 {
+    0% {background:aqua; top:105%; left: 50%; transform: translate(-50%);}
+    // 50% {background: pink; top:55%; left: 50%; transform: translate(-50%);}
+    100% {background: gray; top:20px;left: 50%; transform: translate(-50%);}
+}
+@keyframes rgoli2 {
+    0% {background: rebeccapurple;top:105%; left: 50%; transform: translate(-50%);}
+    100% {background: gray; top:156px;left: 50%; transform: translate(-50%);}
+}
+@keyframes rgoli3 {
+    0% {background:rgb(255, 225, 0);top:105%; left: 50%; transform: translate(-50%);}
+    100% {background: gray; top:292px;left: 50%; transform: translate(-50%);}
+}
+@keyframes rgoli4 {
+    0% {background:rgb(255, 0, 204);top:-135%; left: 50%; transform: translate(-50%);}
+    100% {background: gray; top:20px;left: 50%; transform: translate(-50%);}
+}
+@keyframes rgoli5 {
+    0% {background:rgba(0, 255, 94, 0.501);top:-135%; left: 50%; transform: translate(-50%);}
+    100% {background: gray; top:156px;left: 50%; transform: translate(-50%);}
+}
