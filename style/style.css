@@ -1,0 +1,581 @@
+.total {
+  position: relative;
+  max-width: 1200px;
+  width: 1200px;
+  height: 1150px;
+  margin: auto;
+  background: rgba(128, 128, 128, 0.5); }
+  .total .left {
+    position: absolute;
+    width: 400px;
+    height: 100%;
+    background: rgba(0, 255, 255, 0.378); }
+    .total .left .img {
+      width: 200px;
+      height: 200px;
+      position: relative;
+      border-radius: 50%;
+      top: 30px;
+      margin: auto; }
+    .total .left .par {
+      margin: 60px 0 0 130px; }
+    .total .left .xazi {
+      width: 67.6%;
+      height: 2px;
+      background: blueviolet;
+      margin-left: 130px;
+      margin-top: 5px; }
+    .total .left .abautme {
+      width: 200px;
+      margin: 15px 0 0 130px;
+      text-align: justify; }
+  .total .heading {
+    position: absolute;
+    left: 440px;
+    top: 30px; }
+    .total .heading h1 {
+      font-size: 40px;
+      color: rgba(0, 0, 255, 0.563); }
+    .total .heading .mini_xazi {
+      width: 85px;
+      height: 2.5px;
+      margin-top: 10px;
+      background: blue; }
+  .total .experience {
+    position: absolute;
+    left: 460px;
+    top: 193px; }
+  .total .kutxe {
+    position: absolute;
+    left: 440px;
+    top: 213px; }
+    .total .kutxe .small_xazi {
+      display: inline-block;
+      width: 1.5px;
+      height: 15px;
+      background: gray; }
+    .total .kutxe .xazii {
+      display: inline-block;
+      width: 500px;
+      height: 2px;
+      background: gray;
+      vertical-align: top;
+      margin-left: 15px; }
+  .total .cont1 {
+    position: absolute;
+    left: 433.1px;
+    top: 228.4px; }
+    .total .cont1 .celi {
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 7px; }
+    .total .cont1 .web {
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 25px; }
+  .total .xazi_rgolebi {
+    position: absolute;
+    display: inline-block;
+    left: 440px;
+    top: 222px; }
+    .total .xazi_rgolebi .rgoli {
+      position: relative;
+      width: 17px;
+      height: 17px;
+      border: 1px solid grey;
+      border-radius: 50%;
+      margin-top: 6.3px;
+      margin-left: -7.1px; }
+    .total .xazi_rgolebi .vert {
+      width: 1.5px;
+      height: 100px;
+      background: gray; }
+    .total .xazi_rgolebi .rgoli1 {
+      width: 17px;
+      height: 17px;
+      border: 1px solid grey;
+      border-radius: 50%;
+      margin-left: -7.1px; }
+  .total .clebi {
+    position: absolute;
+    left: 460px;
+    top: 228px; }
+    .total .clebi .cc {
+      margin-top: 100.5px; }
+    .total .clebi .ccc {
+      margin-top: 101px; }
+  .total .naweri {
+    position: absolute;
+    left: 552px;
+    top: 228px;
+    width: 407.9px; }
+  .total .shua {
+    position: absolute;
+    top: 605px;
+    left: 460px; }
+  .total .xz_rgoli {
+    position: absolute;
+    top: 625px;
+    left: 440px; }
+    .total .xz_rgoli .small {
+      display: inline-block;
+      width: 1.5px;
+      height: 15px;
+      background: gray; }
+    .total .xz_rgoli .xazzzz {
+      display: inline-block;
+      width: 500px;
+      height: 2px;
+      background: gray;
+      vertical-align: top;
+      margin-left: 15px; }
+  .total .xaz_sgolebi {
+    position: absolute;
+    left: 433.1px;
+    top: 640px;
+    height: 500px; }
+    .total .xaz_sgolebi .rgl {
+      display: inline-block;
+      position: relative;
+      width: 16px;
+      height: 16px;
+      border: 1px solid gray;
+      border-radius: 50%; }
+    .total .xaz_sgolebi .xz {
+      width: 1.5px;
+      height: 100px;
+      background: gray;
+      margin-top: -4px;
+      margin-left: 7.1px; }
+  .total .gogia {
+    position: absolute;
+    top: 640px;
+    left: 460px; }
+  .total .gogiiaa {
+    position: absolute;
+    top: 640px;
+    left: 552px;
+    width: 407.9px; }
+  .total .skills {
+    position: absolute;
+    left: 460px;
+    top: 942px; }
+    .total .skills .xzz {
+      width: 500px;
+      height: 2px;
+      background: gray;
+      margin-top: 5px; }
+    .total .skills .bolo {
+      display: inline-block;
+      width: 230px;
+      height: 110px;
+      margin-top: 17px;
+      margin-right: 35px;
+      vertical-align: bottom; }
+      .total .skills .bolo .display {
+        margin-top: 3px;
+        display: inline-block; }
+      .total .skills .bolo .border {
+        display: inline-block;
+        width: 150px;
+        height: 11px;
+        vertical-align: middle;
+        border: 1px solid gray;
+        border-radius: 10px; }
+
+.mtavari {
+  max-width: 1200px;
+  width: 100%;
+  height: 1200px;
+  margin: auto;
+  background: #46062b; }
+  .mtavari .left {
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-color: rgba(127, 255, 212, 0.501);
+    margin: 0%;
+    padding-top: 15px; }
+    .mtavari .left .photo {
+      margin: auto;
+      width: 40%;
+      height: 15%;
+      border-radius: 50%;
+      transition: background 2s; }
+    .mtavari .left .about_me {
+      transition: 2s;
+      margin: 0% 0% 0% 25%;
+      width: 50%;
+      height: 35%;
+      padding: 20px; }
+      .mtavari .left .about_me .about {
+        font-family: 'Yusei Magic', sans-serif;
+        width: 340px;
+        padding-bottom: 7px;
+        border-bottom: 2px solid purple;
+        transition: 2s; }
+      .mtavari .left .about_me .about_par {
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin-top: 20px;
+        text-align: justify;
+        font-size: 20px; }
+    .mtavari .left .reference {
+      margin: 0% 0% 0% 25%;
+      width: 50%;
+      height: 35%;
+      background-color: #00e5ff; }
+    .mtavari .left .contact {
+      transition: 2s;
+      margin: 0% 0% 0% 25%;
+      height: 15%;
+      padding: 20px; }
+      .mtavari .left .contact .about1 {
+        font-family: 'Yusei Magic', sans-serif;
+        width: 342px;
+        padding-bottom: 7px;
+        border-bottom: 2px solid purple;
+        transition: border-bottom 2s; }
+      .mtavari .left .contact .about_par1 {
+        font-family: 'Potta One', cursive;
+        margin-top: 20px;
+        text-align: justify; }
+  .mtavari .right_left {
+    float: left;
+    width: 60%;
+    height: 100%;
+    background: rgba(71, 83, 75, 0.6); }
+    .mtavari .right_left .giorgi {
+      position: relative;
+      float: left;
+      width: 100%;
+      height: 15%;
+      padding: 20px; }
+      .mtavari .right_left .giorgi h1 {
+        margin-bottom: 7px;
+        font-family: 'Yusei Magic', sans-serif;
+        font-size: 25px;
+        margin-left: 15.5px; }
+      .mtavari .right_left .giorgi .xazi {
+        height: 2px;
+        width: 60px;
+        background: gray;
+        margin-top: 7px;
+        margin-left: 15.5px; }
+      .mtavari .right_left .giorgi .warwera_xazit {
+        font-family: 'Yusei Magic', sans-serif;
+        position: absolute;
+        left: 10%;
+        bottom: 0;
+        border-bottom: 2px solid gray;
+        width: 90%;
+        padding-bottom: 7px; }
+    .mtavari .right_left .xazi_rgoli {
+      position: relative;
+      float: left;
+      width: 10%;
+      height: 35%; }
+      .mtavari .right_left .xazi_rgoli .vertical {
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        background: gray;
+        left: 50%;
+        transform: translate(-50%); }
+      .mtavari .right_left .xazi_rgoli .rgoli1 {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background: gray;
+        border-radius: 50%;
+        left: 50%;
+        transform: translate(-50%);
+        top: 105%;
+        animation-name: rgoli1;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-out; }
+      .mtavari .right_left .xazi_rgoli .rgoli2 {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background: gray;
+        border-radius: 50%;
+        left: 50%;
+        transform: translate(-50%);
+        top: 105%;
+        animation-name: rgoli2;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out; }
+      .mtavari .right_left .xazi_rgoli .rgoli3 {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background: gray;
+        border-radius: 50%;
+        left: 50%;
+        transform: translate(-50%);
+        top: 105%;
+        animation-name: rgoli3;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in; }
+    .mtavari .right_left .clebi {
+      float: left;
+      width: 20%;
+      height: 35%; }
+      .mtavari .right_left .clebi .celi {
+        width: 50%;
+        margin-top: 20px; }
+      .mtavari .right_left .clebi .celi1 {
+        width: 50%;
+        margin-top: 120px; }
+      .mtavari .right_left .clebi .celi2 {
+        width: 50%;
+        margin-top: 120px; }
+    .mtavari .right_left .nawerebi {
+      font-family: 'Open Sans Condensed', sans-serif;
+      float: left;
+      width: 70%;
+      height: 35%;
+      padding: 20px; }
+      .mtavari .right_left .nawerebi .web_qveda {
+        padding: 10px 0 10px 0; }
+      .mtavari .right_left .nawerebi .text {
+        text-align: justify; }
+      .mtavari .right_left .nawerebi .web {
+        margin-top: 35px; }
+    .mtavari .right_left .xazi_rgoli1 {
+      position: relative;
+      float: left;
+      width: 10%;
+      height: 30%; }
+      .mtavari .right_left .xazi_rgoli1 .vertical {
+        position: absolute;
+        width: 1px;
+        height: 75.5%;
+        background: gray;
+        left: 50%;
+        transform: translate(-50%); }
+      .mtavari .right_left .xazi_rgoli1 .rgoli1 {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background: gray;
+        border-radius: 50%;
+        left: 50%;
+        transform: translate(-50%);
+        top: -135%;
+        animation-name: rgoli4;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease; }
+      .mtavari .right_left .xazi_rgoli1 .rgoli2 {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background: gray;
+        border-radius: 50%;
+        left: 50%;
+        transform: translate(-50%);
+        top: -135%;
+        animation-name: rgoli5;
+        animation-duration: 2s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards; }
+    .mtavari .right_left .clebi1 {
+      float: left;
+      width: 20%;
+      height: 30%; }
+      .mtavari .right_left .clebi1 .celi {
+        width: 50%;
+        margin-top: 20px; }
+      .mtavari .right_left .clebi1 .celi1 {
+        width: 50%;
+        margin-top: 120px; }
+      .mtavari .right_left .clebi1 .celi2 {
+        width: 50%;
+        margin-top: 120px; }
+    .mtavari .right_left .nawerebi1 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      float: left;
+      width: 70%;
+      height: 30%;
+      padding: 20px; }
+      .mtavari .right_left .nawerebi1 .web_qveda {
+        padding: 10px 0 10px 0; }
+      .mtavari .right_left .nawerebi1 .text {
+        text-align: justify; }
+      .mtavari .right_left .nawerebi1 .web {
+        margin-top: 35px; }
+    .mtavari .right_left .bolo {
+      position: relative;
+      float: left;
+      width: 100%;
+      height: 16.21%; }
+      .mtavari .right_left .bolo .skills {
+        font-family: 'Yusei Magic', sans-serif;
+        position: absolute;
+        top: 17%;
+        left: 10%;
+        border-bottom: 2px solid gray;
+        width: 90%;
+        padding-bottom: 7px;
+        z-index: 1; }
+      .mtavari .right_left .bolo .personal {
+        position: absolute;
+        float: left;
+        width: 50%;
+        height: 100%; }
+        .mtavari .right_left .bolo .personal .pers {
+          font-family: 'Open Sans Condensed', sans-serif;
+          font-weight: 800;
+          position: absolute;
+          top: 40.5%;
+          left: 20%; }
+        .mtavari .right_left .bolo .personal .qveda {
+          font-family: 'Open Sans Condensed', sans-serif;
+          font-weight: 800;
+          position: absolute;
+          left: 20%;
+          top: 55%; }
+        .mtavari .right_left .bolo .personal .borders {
+          position: absolute;
+          width: 197.5px;
+          height: 55.5px;
+          left: 45%;
+          top: 55%; }
+          .mtavari .right_left .bolo .personal .borders .mini_border {
+            height: 7px;
+            width: 100%;
+            background: gray;
+            margin-top: 5px;
+            border-radius: 15px; }
+          .mtavari .right_left .bolo .personal .borders .mini_border1 {
+            height: 7px;
+            width: 100%;
+            background: gray;
+            margin-top: 14px;
+            border-radius: 15px; }
+          .mtavari .right_left .bolo .personal .borders .mini_border2 {
+            height: 7px;
+            width: 100%;
+            background: gray;
+            margin-top: 14px;
+            border-radius: 15px; }
+      .mtavari .right_left .bolo .professional {
+        position: absolute;
+        float: left;
+        width: 50%;
+        height: 100%;
+        left: 50%; }
+        .mtavari .right_left .bolo .professional .prof {
+          font-family: 'Open Sans Condensed', sans-serif;
+          font-weight: 800;
+          position: absolute;
+          top: 40.5%;
+          left: 20%; }
+        .mtavari .right_left .bolo .professional .qveda {
+          font-family: 'Open Sans Condensed', sans-serif;
+          font-weight: 800;
+          position: absolute;
+          left: 20%;
+          top: 55%; }
+        .mtavari .right_left .bolo .professional .borders {
+          position: absolute;
+          width: 197.5px;
+          height: 55.5px;
+          left: 45%;
+          top: 55%; }
+          .mtavari .right_left .bolo .professional .borders .mini_border {
+            height: 7px;
+            width: 100%;
+            background: gray;
+            margin-top: 7px;
+            border-radius: 15px; }
+          .mtavari .right_left .bolo .professional .borders .mini_border1 {
+            height: 7px;
+            width: 100%;
+            background: gray;
+            margin-top: 14px;
+            border-radius: 15px; }
+          .mtavari .right_left .bolo .professional .borders .mini_border2 {
+            height: 7px;
+            width: 100%;
+            background: gray;
+            margin-top: 14px;
+            border-radius: 15px; }
+
+.chamatema {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 3.79%; }
+  .chamatema .cham {
+    font-family: 'Yusei Magic', sans-serif;
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    border-bottom: 2px solid gray;
+    width: 90%;
+    padding-bottom: 7px; }
+
+@keyframes rgoli1 {
+  0% {
+    background: aqua;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%); }
+  100% {
+    background: gray;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%); } }
+
+@keyframes rgoli2 {
+  0% {
+    background: rebeccapurple;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%); }
+  100% {
+    background: gray;
+    top: 156px;
+    left: 50%;
+    transform: translate(-50%); } }
+
+@keyframes rgoli3 {
+  0% {
+    background: #ffe100;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%); }
+  100% {
+    background: gray;
+    top: 292px;
+    left: 50%;
+    transform: translate(-50%); } }
+
+@keyframes rgoli4 {
+  0% {
+    background: #ff00cc;
+    top: -135%;
+    left: 50%;
+    transform: translate(-50%); }
+  100% {
+    background: gray;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%); } }
+
+@keyframes rgoli5 {
+  0% {
+    background: rgba(0, 255, 94, 0.501);
+    top: -135%;
+    left: 50%;
+    transform: translate(-50%); }
+  100% {
+    background: gray;
+    top: 156px;
+    left: 50%;
+    transform: translate(-50%); } }
