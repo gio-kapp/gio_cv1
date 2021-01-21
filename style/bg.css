@@ -8,5 +8,10 @@
 .photo{
     background: url(../scss/img/viber_image_2020-10-28_12-19-45.jpg) no-repeat center;
     background-size: cover;
-    
+    transition: background 4s ,url 2s;
+}
+
+.absolut:hover~.left>.photo{
+    background: url(../scss/img/viber_image_2020-10-28_12-19-45.jpg) no-repeat center;
+    background-size: cover;
 }
