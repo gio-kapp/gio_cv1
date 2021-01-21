@@ -1,11 +1,19 @@
 // mtavari contenti
 .mtavari{
+    position: relative;
     max-width: 1200px;
     width: 100%;
     height: 1200px;
     margin: auto;
     background: rgb(70, 6, 43);
     // marcxela kontenti
+    .absolut{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 128, 32, 0.01);
+        z-index: 2;
+    }
     .left{
         // display: inline-block;
         float: left;
@@ -20,10 +28,11 @@
             width: 40%;
             height: 15%;
             border-radius: 50%;
-            transition: background 2s;
+            // transition: width 4s, height 4s, border-radius 4s;
+            // transition: background 2s;
         }
         .about_me{
-            transition: 2s;
+            // transition: 2s;
             margin: 0% 0% 0% 25% ;
             width: 50%;
             height: 35%;
@@ -34,8 +43,8 @@
                 font-family: 'Yusei Magic', sans-serif;
                 width: 340px;
                 padding-bottom: 7px;
-                border-bottom: 2px solid purple;
-                transition: 2s ;
+                // border-bottom: 2px solid purple;
+                transition:  border-bottom 2s ;
             }
             .about_par{
                 font-family: 'Open Sans Condensed', sans-serif;
@@ -51,7 +60,7 @@
             background-color: rgb(0, 229, 255);
         }
         .contact{
-            transition: 2s;
+            // transition: 2s;
             margin: 0% 0% 0% 25%;
             // width: 50%;
             height: 15%;
@@ -61,7 +70,7 @@
                 font-family: 'Yusei Magic', sans-serif;
                 width: 342px;
                 padding-bottom: 7px;
-                border-bottom: 2px solid purple;
+                // border-bottom: 2px solid purple;
                 transition:  border-bottom 2s ;
             }
             .about_par1{
@@ -93,11 +102,13 @@
                 margin-left: 15.5px;
             }
             .xazi{
+                visibility: hidden;
                 height: 2px;
-                width: 60px;
+                width: 1px;
                 background: gray;
                 margin-top: 7px;
                 margin-left: 15.5px;
+                transition: width 2s;
             }
             .warwera_xazit{
                 font-family: 'Yusei Magic', sans-serif;
@@ -105,9 +116,10 @@
                 position: absolute;
                 left: 10%;
                 bottom: 0;
-                border-bottom: 2px solid gray;
+                // border-bottom: 2px solid gray;
                 width: 90%;
                 padding-bottom: 7px;
+                transition: border-bottom 2s;
             }
         }
         // marjvena_marcxena pirveli bloki meore
@@ -328,7 +340,7 @@
             .skills{
                 font-family: 'Yusei Magic', sans-serif;
                 position: absolute;
-                top:17%;
+                top:15%;
                 left: 10%;
                 border-bottom: 2px solid gray;
                 width: 90%;
@@ -451,16 +463,17 @@
     position: relative;
     float: left;
     width: 100%;
-    height: 3.79%;
+    height: 4.3%;
     // background: rgba(0, 0, 0, 0.522);
     .cham{
         font-family: 'Yusei Magic', sans-serif;
         position: absolute;
         left: 10%;
         bottom: 0;
-        border-bottom: 2px solid gray;
+        // border-bottom: 2px solid gray;
         width: 90%;
         padding-bottom: 7px;
+        transition: border-bottom 2s;
     }
 } 
 
@@ -501,24 +514,46 @@
 //     100% {background: forestgreen; top:100%; left: 50%; transform: translate(-50%);}
 // }
 
-@keyframes rgoli1 {
-    0% {background:aqua; top:105%; left: 50%; transform: translate(-50%);}
-    // 50% {background: pink; top:55%; left: 50%; transform: translate(-50%);}
-    100% {background: gray; top:20px;left: 50%; transform: translate(-50%);}
+    @keyframes rgoli1 {
+        0% {background:aqua; top:105%; left: 50%; transform: translate(-50%);}
+        // 50% {background: pink; top:55%; left: 50%; transform: translate(-50%);}
+        100% {background: gray; top:20px;left: 50%; transform: translate(-50%);}
+    }
+    @keyframes rgoli2 {
+        0% {background: rebeccapurple;top:105%; left: 50%; transform: translate(-50%);}
+        100% {background: gray; top:156px;left: 50%; transform: translate(-50%);}
+    }
+    @keyframes rgoli3 {
+        0% {background:rgb(255, 225, 0);top:105%; left: 50%; transform: translate(-50%);}
+        100% {background: gray; top:292px;left: 50%; transform: translate(-50%);}
+    }
+    @keyframes rgoli4 {
+        0% {background:rgb(255, 0, 204);top:-135%; left: 50%; transform: translate(-50%);}
+        100% {background: gray; top:20px;left: 50%; transform: translate(-50%);}
+    }
+    @keyframes rgoli5 {
+        0% {background:rgba(0, 255, 94, 0.501);top:-135%; left: 50%; transform: translate(-50%);}
+        100% {background: gray; top:156px;left: 50%; transform: translate(-50%);}
+    }
+
+.absolut:hover~.right_left>.giorgi>.xazi{
+    visibility: visible;
+    width: 60px;
+
 }
-@keyframes rgoli2 {
-    0% {background: rebeccapurple;top:105%; left: 50%; transform: translate(-50%);}
-    100% {background: gray; top:156px;left: 50%; transform: translate(-50%);}
+
+.absolut:hover~.right_left>.giorgi>.warwera_xazit{
+    border-bottom: 2px solid gray;
 }
-@keyframes rgoli3 {
-    0% {background:rgb(255, 225, 0);top:105%; left: 50%; transform: translate(-50%);}
-    100% {background: gray; top:292px;left: 50%; transform: translate(-50%);}
+.absolut:hover~.right_left>.chamatema>.cham{
+    border-bottom: 2px solid gray;
 }
-@keyframes rgoli4 {
-    0% {background:rgb(255, 0, 204);top:-135%; left: 50%; transform: translate(-50%);}
-    100% {background: gray; top:20px;left: 50%; transform: translate(-50%);}
+.absolut:hover~.left>.about_me>.about{
+    border-bottom: 2px solid rgba(102, 0, 128, 0.789);
 }
-@keyframes rgoli5 {
-    0% {background:rgba(0, 255, 94, 0.501);top:-135%; left: 50%; transform: translate(-50%);}
-    100% {background: gray; top:156px;left: 50%; transform: translate(-50%);}
+
+.absolut:hover~.left>.photo{
+    width: 40%;
+    height: 15%;
+    border-radius: 50%;
 }
