@@ -1,0 +1,166 @@
+.education{
+    grid-area: education;
+    // background-color: yellow;
+    // height: 500px;
+    padding: 20px;
+    
+   
+    .wrapp_bolo{
+        background-color: blanchedalmond;
+        box-shadow: 0px -3px 5px 2px blanchedalmond;
+        padding: 20px;
+        position: relative;
+        
+        height: 350px;
+        .opasiti{
+            position: absolute;
+            width: 90%;
+            height: 90%;
+            background-color: blanchedalmond;
+            opacity: 0;
+            animation-name: opaas;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+            outline: 2px solid red;
+            
+            .display{
+                float: left;
+                width: 50%;
+                .educ{
+                    font-size: 30px;
+                    font-weight: bold;
+                    animation-name: line_height;
+                    animation-duration: 2s;
+                    animation-fill-mode: forwards;
+                    
+                }
+                .ravii{
+                    font-size: 18px;
+                    line-height: 50px;
+                }
+                .ravii+div{
+                    font-size: 17px;
+                    line-height: 60px;
+                    padding-left: 50px;
+                }
+            } 
+            .float2{
+                float: left;
+                width: 50%;
+                .imge{
+                    display: block;
+                    width: 100px;
+                    height: 300px;
+                    object-fit: cover;
+                    object-position: 0% 0%;
+                    margin: auto;
+                    animation-name: gadasvlaxedi;
+                    animation-duration: 3s;
+                    animation-iteration-count: infinite;
+                    
+                }
+            }
+            
+        }
+        
+    }
+    .boloooo{
+        padding: 0px 20px 20px 20px;
+        background-color: blanchedalmond ;
+        box-shadow: 0px -3px 5px 2px blanchedalmond;
+        p:nth-child(1){
+            font-size: 18px;
+            font-weight: bold;
+        }
+        p:nth-child(2){
+            font-size: 17px;
+            line-height: 55px;
+            padding-left: 50px;
+            background-image: url(../scss/img/calendar.png);
+            background-size: 40px 40px;
+            background-repeat: no-repeat;
+            background-position: left center;
+        }
+        p:nth-child(3){
+            font-size: 16px;
+            border-bottom: 1px solid #009688;
+            padding-bottom: 20px;
+        }
+    }
+    
+}
+
+@keyframes line_height {
+    100%{
+        padding-left: 50px;
+        line-height: 50px;
+    }
+}
+
+// binis gadasvla xedispontshi
+@keyframes gadasvlaxedi {
+    0%{object-position: 0% 0%;}
+
+    50%{object-position: 50% 0%;}
+
+    50%{object-position: 100% 0%;}
+}
+
+// gauperuleba
+@keyframes opaas{
+    0%{opacity: 0.2;}
+    50%{opacity: 0.5; outline: 10px solid blue; outline-offset: 5px;}
+    100%{opacity: 1; outline: none;}
+}
+
+// aq vimushaveb qveda gasrialebebze
+
+.witelii{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    z-index: -10;
+    top: 200px;
+    animation-name: qvedidangasrialeba;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    border-radius: 10px;
+    
+}
+.yviteli{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: yellow;
+    z-index: -10;
+    top: 300px;
+    animation-name: qvedidangasrialeba;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    border-radius: 10px;
+    
+}
+.mwvane{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    z-index: -10;
+    top: 400px;
+    animation-name: qvedidangasrialeba;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    border-radius: 10px;
+    
+}
+@keyframes qvedidangasrialeba{
+    0%{left: 5%;}
+    // 50%{left: 50%;}
+    // 70%{left: 65%;}
+    80%{left: 90%; width: 0;}
+    100%{left: 100%; width: 0;}
+}

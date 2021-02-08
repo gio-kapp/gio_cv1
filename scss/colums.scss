@@ -1,0 +1,53 @@
+.column{
+    // ramdenad daiyos
+    column-count: 3;
+    // dayofebs shoris mandzili
+    column-gap: 120px;
+    // xazit gayofa
+    column-rule-style: solid;
+    text-align: justify;
+    // xazis sisxo
+    column-rule-width: 10px;
+    // xazis peri
+    column-rule-color: red;
+    // shegvidzlia chavwerot mokled marto "column-rule"
+}
+
+.span{
+    columns: 50px 4;
+    // column-count: 4;
+    column-rule: 1px solid yellowgreen;
+    column-gap: 50px;
+    margin-top: 50px;
+    // column-width: 300px;
+    // height: 700px;
+    // column-fill: balance;
+    // column-width: 150px;
+    
+}
+
+// resize html aghwerilia qvevit
+
+.resize{
+    border: 1px solid black;
+    margin: 25px;
+    padding: 20px;
+    width: 300px;
+    resize: both;
+    overflow: auto;
+}
+.resz{
+    resize: none;
+}
+.outline{
+    border: 1px solid green;
+    padding: 10px;
+    outline: 3px solid red;
+    outline-offset: 15px;
+    margin: 50px;
+    outline-width: 20px;
+    overflow: visible;
+    
+}
+
+

@@ -1,0 +1,42 @@
+.center{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.pagination a{
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 2s;
+    border: 1px solid gray;
+    float: left;
+    margin: 0px 15px;
+    font-size: 22px;
+    width: 60px;
+    
+    // text-align: center;
+    
+}
+.peri{
+    background: green;
+}
+
+a:active{
+    color: black;
+}
+
+.pagination a:hover:not(.peri){
+    background: gray;
+}
+
+.pagination>.peri{
+    border-radius: 50%;
+    color: blueviolet;
+    font-weight: 900;
+}
+.pagination a:nth-child(1){
+    border-radius: 20px;
+}
+.pagination a:nth-child(8){
+    border-radius: 20px;
+}
+

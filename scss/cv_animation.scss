@@ -1,0 +1,651 @@
+#bodyyy{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.275);
+    animation-name: bgcolor;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+}
+// aq ganvsazghvre mtavari Grid divi romelsac aqvs ori row da ori qolumi
+// grid-template-area ti gadavanawile shignit motavsebuli divebi
+.grid{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: 35% auto;
+    grid-template-areas: 
+    'about_me work'
+    'about_me education'
+    ;
+    grid-template-rows: 665px auto;
+    .about_me{
+        grid-area: about_me;
+        padding: 20px 20px 20px 20px;
+        // box-shadow: 5px -5px 4px 2px blanchedalmond;
+        
+        
+        .potostvis{
+            border-radius: 5px;
+            position: relative;
+            // width: 300px;
+            height: 300px;
+            // background-color: red;
+            padding: 20px;
+            border: 2px solid black;
+            animation-name: gif;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            box-shadow: 0px -3px 5px 2px blanchedalmond;
+            .span1{
+                position: absolute;
+                right: 0;
+                top: 0;
+                font: 20px bold;
+                color: yellowgreen;
+                animation-name: biniko;
+                animation-duration: 2s;
+                animation-fill-mode: forwards;
+                z-index: 10;
+
+
+            }
+            
+            .background_img{
+                border: 2px solid black;
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                animation-name: piso_bini;
+                animation-duration: 1.5s;
+                animation-fill-mode: forwards;
+                // z-index: -1;
+            }
+            .saxeli_gvari{
+                position: absolute;
+                bottom: 30px;
+                left: 20px;
+                font-size: 22px;
+                font-weight: bold;
+                // visibility: visible;
+                animation-name: saxeli_gvari;
+                animation-duration: 2s;
+                animation-fill-mode: forwards;
+                transition: font-weight 5.5s;
+                
+            }
+           
+        }
+        // axali tavi iconebit
+        .iconebi{
+            padding: 0 0 0 20px;
+            font-size: 15px;
+            background-color: blanchedalmond;
+            box-shadow: 0px -3px 5px 2px blanchedalmond;
+            
+            p:nth-child(4){
+                animation-name: bottom;
+                animation-duration: 5s;
+                animation-fill-mode: forwards;
+
+            }
+            p:nth-child(5){
+                font-weight: bolder;
+                font-size: 22px;
+            }
+            p:nth-child(6){
+                line-height: 50px;
+            }
+            .gamtari{
+                position: relative;
+                border: 1px solid grey;
+                height: 20px;
+                border-radius: 20px;
+                background-color: gray;
+                .gamavali{
+                    position: absolute;
+                    width: 90%;
+                    height: 19px;
+                    background-color: #009688;
+                    // border: 1px solid black;
+                    border-bottom-left-radius: 20px;
+                    border-top-left-radius: 20px;
+                    text-align: center;
+                    animation-name: shevseba;
+                    animation-duration: 2s;
+                    animation-fill-mode: forwards;
+                    overflow: hidden;
+                    line-height: 20px;
+                    
+                    
+                }
+            }
+            .gamtari+p{
+                line-height: 50px;
+                
+            }
+            .gamtari1{
+                // position: relative;
+                border: 1px solid grey;
+                height: 20px;
+                border-radius: 20px;
+                background-color: gray;
+
+                .gamavali1{
+                    // position: absolute;
+                    width: 80%;
+                    height: 19px;
+                    background-color: #009688;
+                    // border: 1px solid black;
+                    border-bottom-left-radius: 20px;
+                    border-top-left-radius: 20px;
+                    text-align: center;
+                    animation-name: shevseba1;
+                    animation-duration: 2s;
+                    // animation-fill-mode: forwards;
+                    overflow: hidden;
+                    animation-fill-mode: forwards;
+                    line-height: 20px;
+                }
+            }
+            .gamtari1+p{
+                line-height: 50px;
+            }
+            .gamtari2{
+                border: 1px solid gray;
+                height: 20px;
+                border-radius: 20px;
+                background-color: gray;
+                .gamavali2{
+                    background-color: #009688;
+                    height: 19px;
+                    // border: 1px solid black;
+                    border-bottom-left-radius: 20px;
+                    border-top-left-radius: 20px;
+                    text-align: center;
+                    animation-name: shevseba2;
+                    animation-duration: 2s;
+                    animation-fill-mode: forwards;
+                    overflow: hidden;
+                    line-height: 20px;
+                }
+            }
+            .gamtari2+p{
+                line-height: 50px;
+            }
+            .gamtari3{
+                border: 1px solid gray;
+                height: 20px;
+                border-radius: 20px;
+                background-color: gray;
+                .gamavali3{
+                    background-color: #009688;
+                    height: 19px;
+                    // border: 1px solid black;
+                    border-bottom-left-radius: 20px;
+                    border-top-left-radius: 20px;
+                    text-align: center;
+                    animation-name: shevseba3;
+                    animation-duration: 2s;
+                    animation-fill-mode: forwards;
+                    overflow: hidden;
+                    padding: 3px;
+                }
+            
+            }
+            .laguage{
+                line-height: 50px;
+            }
+            .linear{
+                height: 25px;
+                border-radius: 20px;
+                animation-name: gradiant_cimcimi;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+                
+                
+                .gradiant{
+                    height: 25px;
+                    width: 0;
+                    border-radius: 20px;
+                    background-image: linear-gradient(to right, red, yellow, green);
+                    animation-name: gradiant;
+                    animation-duration: 3s;
+                    animation-fill-mode: forwards;
+                    text-align: center;
+                    padding-top: 5px;
+                    font-weight: bolder;
+                    color: green;
+                    overflow: hidden;
+                }
+            }
+            .linear+p{
+                line-height: 50px;
+            }
+            .linear_gradiant{
+                width: 50%;
+                height: 25px;
+                border-radius: 20px;
+                animation-name: gradtest;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+                .grad_shida{
+                    width: 0px;
+                    height: 25px;
+                    border-radius: 20px;
+                    animation-name: grad_shida;
+                    animation-duration: 3s;
+                    animation-fill-mode: forwards;
+                    text-align: center;
+                    padding: 5px;
+                    overflow: hidden;
+                }
+                
+               
+            }
+            .linear_gradiant+p{
+                line-height: 50px;
+            }
+            .qveda_gradaint{
+                height: 25px;
+                border-radius: 20px;
+                background-color: gray;
+                animation-name: cimcim;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+                border: 1px solid red;
+                .qveda_shida{
+                    width: 0;
+                    height: 25px;
+                    // background-color: red;
+                    border-radius: 20px;
+                    animation-name: shevsseba;
+                    animation-duration: 3s;
+                    animation-fill-mode: forwards;
+                    text-align: center;
+                    padding: 5px;
+                    overflow: hidden;
+                    
+                }
+            }
+        }
+        
+    }
+    // mtavari marjvena pirveli
+    .work{
+        grid-area: work;
+        padding: 20px 20px 20px 20px;
+        height: 665px;
+        // background-color: aqua;
+        
+        .mtavari_wrapper{
+            // height: auto;
+            // background: blue;
+            background-color: blanchedalmond;
+            box-shadow: 0px -3px 5px 2px blanchedalmond;
+            padding: 20px 20px 0px 20px;
+            
+            .wrapp_back{
+                position: relative;
+                // padding: 20px;
+                height: 120px;
+                // background-color:green ;
+                perspective: 1000px;
+                perspective-origin: 50% 50%;
+                animation-name: perspectivee;
+                animation-duration: 2.1s;
+                animation-fill-mode: forwards;
+                .perspectiv{
+                    position: absolute;
+                    background-color: red;
+                    // border-radius: 10px;
+                    padding: 50px;
+                    left: 45%;
+                    z-index: 20;
+                    height: 100%;
+                    transform: rotateX(50deg);
+                    animation-name: gaqroba;
+                    animation-duration: 3s;
+                    animation-fill-mode: forwards;
+                
+                }
+            
+             // daiwko qveda anwili
+                .experience{
+                    color: #009688;
+                    position: absolute;
+                    font-size: 30px;
+                    font-weight: bold;
+                    padding-left: 70px;
+                    line-height: 50px;
+                    animation-name: experience;
+                    animation-duration: 2s;
+                    animation-iteration-count: infinite;
+                }
+                .experience+p{
+                    position: absolute;
+                    padding-top: 100px;
+                    font-size: 18px;
+                    font-weight: bold;
+                    animation-name: clip;
+                    animation-duration: 3s;
+                    animation-fill-mode: forwards;
+                    clip: rect(0,10px,250px,10px);
+                    
+                }
+            }      
+            .wrappblock{
+                margin-top: 50px;
+                position: relative;
+                height: 120px;
+                // overflow: hidden;
+                // perspective: 100px;
+                // perspective-origin: 200% 10%;
+                
+                .first_after{
+                    // padding-top: 170px;
+                    padding-left: 50px;
+                    line-height: 50px;
+                    font-weight: 900;
+                }
+                .first_after::after{
+                    content: "Current";
+                    background-color: #009688;
+                    padding: 3px;
+                    border-radius: 5px;
+                    color: white;
+                    letter-spacing: 2px;
+                    font-size: 2px;
+                    animation-name: aftter;
+                    animation-duration: 1.5s;
+                    animation-fill-mode: forwards;
+                }
+                .first_after+p{
+                    position: absolute;
+                    // width: 70%;
+                    // border-bottom: 1px solid grey;
+                    padding-bottom: 10px;
+                    margin-top: 15px;
+                    animation-name: mochra_xazi;
+                    animation-duration: 2s;
+                    animation-fill-mode: forwards;
+                    clip: rect(0px,20px,40px,20px);
+                }
+            } 
+            .webdev{
+                margin-top: 50px;
+                
+                p:nth-child(1){
+                    // line-height: 50px;
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+                p:nth-child(2){
+                    line-height: 50px;
+                    color: #009688;
+                    padding-left: 50px;
+                }
+                p:nth-child(3){
+                    margin-top: 15px;
+                    // color: blue;
+                    // padding-left: 50px;
+                    border-bottom: 1px solid #009688;
+                    padding-bottom: 25px;
+                }
+            }
+            .grapdisiner{
+                // display: none;
+                position: relative;
+                margin-top: 25px;
+                height: 120px;
+                animation-name: blockheight;
+                animation-duration: 2s;
+                animation-fill-mode: forwards;
+                
+                
+                // overflow: hidden;
+                p:nth-child(1){
+                    position: absolute;
+                    // line-height: 50px;
+                    font-size: 18px;
+                    font-weight: bold;
+                    top: 0;
+                }
+                p:nth-child(2){
+                    top: 30px;
+                    position: absolute;
+                    line-height: 50px;
+                    color: #009688;
+                    padding-left: 50px;
+                }
+                .sachiroa{
+                    top: 90px;
+                    position: absolute;
+                    // margin-top: 15px;
+                }
+            }
+
+        } 
+    }
+}
+
+// tavshi backgroundis damateba
+.wrappp{
+    background-color: azure;
+}
+// binis trialis animacia
+@keyframes piso_bini{
+    from {display: none;}
+    to {width: 250px; height: 250px; transform: rotate(360deg); visibility: visible; border: 2px solid yellowgreen;}
+}
+
+
+
+// gif is aniamcia
+@keyframes gif {
+    // from {background-position: top left;}
+    // to {background-position: top right; background-size: 180px 90px;}
+    50% {background-position: top right; background-size: 160px 70px; border: 2px solid yellowgreen;}
+}
+
+// bodys background animacia
+@keyframes bgcolor {
+    from {background-color: rgba(255, 0, 0, 0.583);}
+    to {background-color: rgba(128, 128, 128, 0.275);}
+}
+
+// saxeli gvaris gamochena animaciit
+
+@keyframes saxeli_gvari{
+    0% {visibility: hidden;}
+    50% {visibility: hidden;}
+    100% {visibility: visible;}
+}
+
+// qveda xazis animacia
+
+@keyframes bottom {
+    from {border-bottom: 1px solid gray;}
+    to {border-bottom: 1px solid #009688;}
+}
+
+// shevsebis animaciebi
+@keyframes shevseba {
+    from {width: 0px;}
+    to {width: 90%; border-radius: 20px; color: green; font-weight: bolder;}
+}
+
+@keyframes shevseba1 {
+    from {width: 0px;}
+    to {width: 80%;  border-radius: 20px; color:rgba(0, 128, 0, 0.638); font-weight: bolder;}
+}
+@keyframes shevseba2 {
+    from {width: 0px;}
+    to {width: 75%;  border-radius: 20px; color:rgba(255, 0, 0, 0.385); font-weight: bolder;}
+}
+@keyframes shevseba3 {
+    from {width: 0px;}
+    to {width: 50%;  border-radius: 20px; color:red; font-weight: bolder;}
+}
+
+// bottomis animacia binis saxelze
+
+@keyframes biniko {
+    to{top: 50%; right: 10px; transform: translate(-50% -50%);}
+}
+
+// gradiantze animacia
+@keyframes gradiant{
+    to {width: 100%; background-image: linear-gradient(to right, red, yellow, green) ;}
+}
+
+// cimcimi shadow
+@keyframes gradiant_cimcimi{
+//    from{box-shadow: 0px 0px 0px red;}
+   50%{box-shadow: 0px 0px 5px 5px green;}
+}
+
+// aq vcdilob gradiantze animacias
+@keyframes gradtest{
+    50%{ box-shadow: 0 0 3px 3px yellow;}
+}
+
+@keyframes grad_shida{
+    to{
+        width: 100%; background-image: linear-gradient(to right, red, yellow);
+    }
+}
+// bolo shevseba
+
+@keyframes cimcim{
+    50%{box-shadow: 0 0 2px 2px red;}
+}
+
+@keyframes shevsseba{
+    to {
+        width: 30%; background-color: red;
+    }
+}
+
+// wavida gverida pirvel ianimaciebi
+
+@keyframes experience {
+    0%{top: 20px; left: 30px;}
+    20%{top: 30px; left: 25px; }
+    50% {top: 40px; left: 25px; }
+    70%{top: 45px; left: 30px;  }
+    85% {top: 35px; left: 40px;}
+    95%{top: 25px; left: 30px;}
+    100%{top: 20px; left: 30px;}
+    
+}
+// clip aniamcia
+@keyframes clip{
+    30% {clip: rect(0,250px, 250px, 0); color: blue;}
+    50% {clip: rect(0,100px, 250px, 50px); color: blue;}
+    100% {clip: rect(0,300px, 250px, 0); color: #009688;}
+}
+
+// afteris animacia
+@keyframes aftter {
+    to{font-size: 16px; font-weight: bold;}
+}
+
+
+// media test gridze
+@media (max-width:668px) {
+    .grid{
+        
+        grid-template-columns: auto;
+        grid-template-areas: 'about_me'
+        'about_me'
+        'work' 'education' ;
+        // grid-template-rows: auto;
+        justify-content: space-around;
+        grid-gap:20px;
+        
+    }
+    @keyframes biniko {
+        to{top: 50%; right: 50%; transform: translate(-50% -50%); color: aqua;}
+    }
+    .wrapp_bolo{
+        margin-top: 50px;
+    }
+    .float2{
+        display: none;
+    }
+
+}
+@media (max-width:950px) {
+    .grid{
+        // grid-row-gap: 200px;
+        grid-template-columns: 100%;
+        grid-template-areas: 'about_me'
+        'work' 'education' ;
+        grid-template-rows: auto;
+        justify-content: space-around;
+        
+    }
+    @keyframes biniko {
+        to{top: 50%; right: 50%; transform: translate(-50% -50%); color: aqua;}
+    }
+    
+
+}
+
+
+// teqsti xazit aniamcia mochris
+@keyframes mochra_xazi{
+    0%{clip: rect(0px,20px,40px,20px);}
+    50%{clip: rect(0px,150px,40px,20px); letter-spacing: 10px;}
+    75%{clip: rect(0px,60px,250px,20px);border-bottom: 1px solid red;}
+    100%{clip: rect(0px,800px,250px,0px); border-bottom: 1px solid #009688;}
+}
+
+// block height
+@keyframes blockheight {
+    // 0%{height: 2px; overflow: hidden;}
+    // 25%{height: 40px; overflow: hidden;}
+    
+    from{height: 0; overflow: hidden;}
+    to {
+        height: 120px; overflow: visible;
+    }
+    
+   
+}
+
+
+// avghwer origins da perspeqtivs
+@keyframes perspectivee{
+    0%{perspective: 60px; perspective-origin: 80% 10%;}
+    50%{perspective: 60px; perspective-origin: 30% 80%;}
+    90%{perspective: 80px; perspective-origin: 110% 150%;}
+    // 100%{display: none;}
+    // 80%{perspective: 80px; perspective-origin: 85% 10%;}
+    // 100%{perspective: 1000px; perspective-origin: 50% 50%;}
+}
+
+// gaqroba zedaszea mibmuli
+@keyframes gaqroba{
+    to{visibility: hidden; transform: rotateX(60deg); padding: 20px;}
+}
+
+// iqita gverdidan
+.ident::first-line{
+    text-shadow: 2px 2px 2px #009688 ;
+}
+.ident{
+//    text-shadow: 2px 2px 5px blue;
+//    text-indent: 50px;
+   text-shadow: 2px 2px 2px #009688 ;
+   animation-name: ident;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+   text-align: justify;
+}
+
+@keyframes ident{
+
+    to{text-indent: 50px; text-shadow: none;}
+
+}

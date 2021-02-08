@@ -1,0 +1,170 @@
+.button{
+    background: green;
+    padding: 5px 7px;
+    color:red;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    // border: none;
+    cursor: pointer;
+    background-color: palevioletred;
+    width: 100px;
+    border-radius: 15px;
+    border: 2px solid red;
+    box-shadow: 4px 5px 3px green;
+    // cursor: not-allowed;
+    transition: background 1s;
+    // text-decoration: none;
+    // opacity: 0.3;
+    outline: none;
+}
+    
+a{
+    text-decoration: none;
+}
+.button:hover{
+    background: white;
+    box-shadow: 4px 5px 5px blueviolet;
+}
+.gilaki{
+    // display: block;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 22px;
+    background: orangered;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    width: 150px;
+    cursor: pointer;
+    outline: none;
+    
+    span:after{
+        content: '\00bb';
+        opacity: 0;
+        transition: margin-left 1s , font-size 1s ;
+        
+        
+    }
+}
+
+.gilaki:hover {
+    span:after{
+        margin-left: 20px;
+        // margin-right: 10px;
+        opacity: 1;
+        // font-size: 50px;
+        // vertical-align: middle;
+        
+    }
+}
+
+.inline{
+    display: inline-block;
+    height: 250px;
+}
+
+.chrdili{
+    display: block;
+    font-size: 20px;
+    padding: 8px 15px;
+    background: gray;
+    border-radius: 15px;
+    outline: none;
+    margin-left: 25px;
+    border: none;
+    box-shadow: 0 10px red;
+    cursor: pointer;
+    transition: transform .7s, box-shadow 1s;
+    text-align: center;
+}
+
+.chrdili:hover{
+    background: pink;
+}
+.chrdili:active{
+    transform: translatey(5px);
+    box-shadow: 0 3px green;
+ 
+}
+
+
+
+
+
+.button1 {
+    display: block;
+    margin: auto;
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button1:after {
+    color: black;
+    content: "gg";
+    background: blue;
+    display: block;
+    position: absolute;
+    // padding-top: 700%;
+    // padding-left: 700%;
+    // margin-left: -20px !important;
+    // margin-top: -120%;
+    opacity: 0.3;
+    transition: all 0.8s;
+    border: 1px solid red;
+  }
+  
+  .button1:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+
+.testt{
+    display: block;
+    position: relative;
+    width: 200px;
+    background: green;
+    margin-left: 500px;
+    margin-top: 200px;
+    padding: 20px;
+    font-size: 28px;
+    outline: none;
+    border: none;
+    // transition-duration: 0.4s;
+    overflow: hidden;
+    .gaelveba{
+        position: absolute;
+        display: block;
+        background: #f1f1f1;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -20px;
+        margin-top: -120px;
+        opacity: 0;
+        transition: all 0.1s;
+        
+    }
+}
+
+.testt:active>.gaelveba{
+   margin: -0px;
+   padding: -0px;
+   bottom: 0;
+   left: 0;
+   opacity: 1;
+//    transition: 0;
+    
+}

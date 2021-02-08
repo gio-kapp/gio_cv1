@@ -1,0 +1,24 @@
+.bodunaa{
+    position: relative;
+    background-color: red;
+    .witeli{
+        position: absolute;
+        background: #0000ff;
+        border-radius: 20px;
+        width: 200px;
+        height: 50px;
+        top: 300px;
+        animation-name: sriaal;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 2;
+        animation-delay: -2;
+        z-index: -5;
+    }
+}
+
+@keyframes sriaal{
+  0%{left: 0;}
+  50%{left: 50%; z-index:-5;}
+  100%{left: 100%; width: 0; background-color: aqua;}
+}

@@ -4,7 +4,7 @@
   width: 100%;
   height: 1200px;
   margin: auto;
-  background: #46062b; }
+  background: #834569; }
   .mtavari .absolut {
     position: absolute;
     width: 100%;
@@ -60,7 +60,7 @@
     float: left;
     width: 60%;
     height: 100%;
-    background: rgba(71, 83, 75, 0.6); }
+    background-color: rgba(37, 63, 55, 0.501); }
     .mtavari .right_left .giorgi {
       position: relative;
       float: left;
@@ -266,19 +266,20 @@
           top: 55%; }
           .mtavari .right_left .bolo .personal .borders .mini_border {
             height: 7px;
-            width: 100%;
+            width: 0;
             background: gray;
             margin-top: 5px;
-            border-radius: 15px; }
+            border-radius: 15px;
+            transition: 1s; }
           .mtavari .right_left .bolo .personal .borders .mini_border1 {
             height: 7px;
-            width: 100%;
+            width: 0%;
             background: gray;
             margin-top: 14px;
             border-radius: 15px; }
           .mtavari .right_left .bolo .personal .borders .mini_border2 {
             height: 7px;
-            width: 100%;
+            width: 0%;
             background: gray;
             margin-top: 14px;
             border-radius: 15px; }
@@ -308,19 +309,19 @@
           top: 55%; }
           .mtavari .right_left .bolo .professional .borders .mini_border {
             height: 7px;
-            width: 100%;
+            width: 0%;
             background: gray;
             margin-top: 7px;
             border-radius: 15px; }
           .mtavari .right_left .bolo .professional .borders .mini_border1 {
             height: 7px;
-            width: 100%;
+            width: 0%;
             background: gray;
             margin-top: 14px;
             border-radius: 15px; }
           .mtavari .right_left .bolo .professional .borders .mini_border2 {
             height: 7px;
-            width: 100%;
+            width: 0%;
             background: gray;
             margin-top: 14px;
             border-radius: 15px; }
@@ -417,28 +418,1233 @@
   height: 15%;
   border-radius: 50%; }
 
-.box1 {
-  width: 100px;
-  height: 100px;
-  background: blue; }
+.absolut:hover ~ .right_left > .bolo > .personal > .borders > .mini_border {
+  width: 50%; }
 
-.box2 {
-  visibility: hidden;
-  position: absolute;
-  width: 100px;
-  height: 100px;
+.absolut:hover ~ .right_left > .bolo > .personal > .borders > .mini_border1 {
+  width: 90%;
+  transition: 3s; }
+
+.absolut:hover ~ .right_left > .bolo > .personal > .borders > .mini_border2 {
+  width: 68%;
+  transition: 1s; }
+
+.bodunaa {
+  position: relative;
+  background-color: red; }
+  .bodunaa .witeli {
+    position: absolute;
+    background: #0000ff;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    top: 300px;
+    animation-name: sriaal;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    animation-delay: -2;
+    z-index: -5; }
+
+@keyframes sriaal {
+  0% {
+    left: 0; }
+  50% {
+    left: 50%;
+    z-index: -5; }
+  100% {
+    left: 100%;
+    width: 0;
+    background-color: aqua; } }
+
+.button {
   background: green;
-  animation-name: gioo;
-  animation-duration: 3s; }
+  padding: 5px 7px;
+  color: red;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: palevioletred;
+  width: 100px;
+  border-radius: 15px;
+  border: 2px solid red;
+  box-shadow: 4px 5px 3px green;
+  transition: background 1s;
+  outline: none; }
 
-div {
-  margin-bottom: 2px; }
+a {
+  text-decoration: none; }
 
-.box1:hover ~ .box2 {
-  visibility: visible; }
+.button:hover {
+  background: white;
+  box-shadow: 4px 5px 5px blueviolet; }
 
-@keyframes gioo {
+.gilaki {
+  margin-top: 20px;
+  margin-left: 25px;
+  font-size: 22px;
+  background: orangered;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  width: 150px;
+  cursor: pointer;
+  outline: none; }
+  .gilaki span:after {
+    content: '\00bb';
+    opacity: 0;
+    transition: margin-left 1s , font-size 1s; }
+
+.gilaki:hover span:after {
+  margin-left: 20px;
+  opacity: 1; }
+
+.inline {
+  display: inline-block;
+  height: 250px; }
+
+.chrdili {
+  display: block;
+  font-size: 20px;
+  padding: 8px 15px;
+  background: gray;
+  border-radius: 15px;
+  outline: none;
+  margin-left: 25px;
+  border: none;
+  box-shadow: 0 10px red;
+  cursor: pointer;
+  transition: transform .7s, box-shadow 1s;
+  text-align: center; }
+
+.chrdili:hover {
+  background: pink; }
+
+.chrdili:active {
+  transform: translatey(5px);
+  box-shadow: 0 3px green; }
+
+.button1 {
+  display: block;
+  margin: auto;
+  position: relative;
+  background-color: #4CAF50;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer; }
+
+.button1:after {
+  color: black;
+  content: "gg";
+  background: blue;
+  display: block;
+  position: absolute;
+  opacity: 0.3;
+  transition: all 0.8s;
+  border: 1px solid red; }
+
+.button1:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s; }
+
+.testt {
+  display: block;
+  position: relative;
+  width: 200px;
+  background: green;
+  margin-left: 500px;
+  margin-top: 200px;
+  padding: 20px;
+  font-size: 28px;
+  outline: none;
+  border: none;
+  overflow: hidden; }
+  .testt .gaelveba {
+    position: absolute;
+    display: block;
+    background: #f1f1f1;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px;
+    margin-top: -120px;
+    opacity: 0;
+    transition: all 0.1s; }
+
+.testt:active > .gaelveba {
+  margin: -0px;
+  padding: -0px;
+  bottom: 0;
+  left: 0;
+  opacity: 1; }
+
+.center {
+  text-align: center;
+  margin-bottom: 100px; }
+
+.pagination a {
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 2s;
+  border: 1px solid gray;
+  float: left;
+  margin: 0px 15px;
+  font-size: 22px;
+  width: 60px; }
+
+.peri {
+  background: green; }
+
+a:active {
+  color: black; }
+
+.pagination a:hover:not(.peri) {
+  background: gray; }
+
+.pagination > .peri {
+  border-radius: 50%;
+  color: blueviolet;
+  font-weight: 900; }
+
+.pagination a:nth-child(1) {
+  border-radius: 20px; }
+
+.pagination a:nth-child(8) {
+  border-radius: 20px; }
+
+.column {
+  column-count: 3;
+  column-gap: 120px;
+  column-rule-style: solid;
+  text-align: justify;
+  column-rule-width: 10px;
+  column-rule-color: red; }
+
+.span {
+  columns: 50px 4;
+  column-rule: 1px solid yellowgreen;
+  column-gap: 50px;
+  margin-top: 50px; }
+
+.resize {
+  border: 1px solid black;
+  margin: 25px;
+  padding: 20px;
+  width: 300px;
+  resize: both;
+  overflow: auto; }
+
+.resz {
+  resize: none; }
+
+.outline {
+  border: 1px solid green;
+  padding: 10px;
+  outline: 3px solid red;
+  outline-offset: 15px;
+  margin: 50px;
+  outline-width: 20px;
+  overflow: visible; }
+
+:root {
+  --blue: blue;
+  --green: green;
+  --font-size:20px; }
+
+.gamokvetili {
+  --red: red;
+  background-color: var(--green);
+  color: var(--red);
+  padding: 25px; }
+  .gamokvetili p {
+    margin: 10px;
+    font-size: var(--font-size); }
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+  margin: 50px;
+  border-bottom: 2px solid blue;
+  padding-bottom: 25px; }
+
+button {
+  --red: red;
+  border: 4px solid blueviolet;
+  outline: none;
+  color: var(--red); }
+
+.nav {
+  background: black;
+  overflow: hidden; }
+  .nav a {
+    text-decoration: none;
+    display: block;
+    float: left;
+    font-size: 22px;
+    padding: 15px;
+    color: green; }
+
+a:hover {
+  background: red; }
+
+@media (max-width: 600px) {
+  a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center; } }
+
+.flex-conteiner {
+  display: flex;
+  background: blue;
+  flex-flow: row wrap;
+  margin-bottom: 20px; }
+  .flex-conteiner div {
+    font-size: 25px;
+    background: gray;
+    margin: 20px 5px;
+    width: 100px;
+    text-align: center;
+    line-height: 55px; }
+
+.conteiner1 {
+  margin-top: 15px;
+  height: 250px;
+  display: flex;
+  background-color: aqua; }
+  .conteiner1 div {
+    background: gray;
+    padding: 25px;
+    margin: 10px 20px; }
+
+.content {
+  display: flex;
+  background: gray;
+  flex-wrap: wrap;
+  align-content: flex-end; }
+  .content div {
+    background-color: rebeccapurple;
+    padding: 25px;
+    margin: 10px 20px; }
+
+.header {
+  background: aqua;
+  text-align: center;
+  padding: 60px; }
+
+.nav {
+  display: flex;
+  background: rgba(0, 0, 0, 0.481); }
+
+.conteiner_cont {
+  display: flex; }
+
+.flex_left {
+  flex: 30%;
+  background: rgba(128, 128, 128, 0.659);
+  padding: 20px 15px; }
+  .flex_left .facke {
+    width: 100%;
+    height: 200px;
+    padding: 25px;
+    background: greenyellow;
+    margin-bottom: 15px; }
+  .flex_left div {
+    background: yellow;
+    margin: 15px 0;
+    height: 60px;
+    padding: 25px; }
+
+.flex_right {
+  flex: 70%;
+  padding: 20px 15px; }
+  .flex_right div {
+    height: 200px;
+    background-color: yellowgreen;
+    padding: 25px;
+    margin-top: 15px; }
+
+.foot {
+  background-color: gray;
+  text-align: center;
+  padding: 25px; }
+
+@media (max-width: 800px) {
+  .nav {
+    flex-direction: column;
+    text-align: center; }
+  .conteiner_cont {
+    flex-direction: column; } }
+
+.tavi {
+  background: #9933cc;
+  padding: 15px;
+  font-size: 30px;
+  margin-bottom: 20px; }
+
+.wrapp::after {
+  content: "";
+  clear: both;
+  display: block; }
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  width: 100%; }
+
+.menu ul li {
+  background-color: #33b5e5;
+  margin-bottom: 7px;
+  padding: 8px; }
+
+.menu ul li:hover {
+  background: red; }
+
+.tetri {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .tetri .city {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 7px; }
+  .tetri img {
+    width: 100%;
+    height: auto; }
+
+.marj {
+  background: #33b5e5;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 20px; }
+  .marj p:nth-child(n) {
+    margin: 7px; }
+
+.footter {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px; }
+
+@media (min-width: 600px) {
+  .col-s-1 {
+    width: 25%; }
+  .col-s-2 {
+    width: 75%; } }
+
+@media (min-width: 768px) {
+  .col-1 {
+    width: 25%; }
+  .col-2 {
+    width: 50%; } }
+
+.binn {
+  width: 100%;
+  height: auto; }
+
+.binn1 {
+  max-width: 100%;
+  height: auto; }
+
+.back {
+  width: 100%;
+  height: 450px;
+  border: 1px solid red; }
+
+.gr {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgba(0, 0, 255, 0.474);
+  padding: 20px;
+  grid-gap: 10px 50px;
+  margin-bottom: 50px; }
+  .gr .shvili {
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black; }
+
+.tessst {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4; }
+
+.gr-cont {
+  display: grid;
+  grid-template-columns: 20% 20% 30% auto;
+  padding: 15px;
+  grid-gap: 20px 10px; }
+  .gr-cont div {
+    background-color: yellowgreen;
+    text-align: center;
+    padding: 20px; }
+
+.ggrid {
+  display: grid;
+  grid-template-columns: 70px 70px 70px;
+  background: blue;
+  padding: 15px;
+  grid-gap: 25px;
+  height: 200px;
+  grid-template-rows: 20px 20px;
+  justify-content: center;
+  align-content: end; }
+  .ggrid div {
+    padding: 15px;
+    background: pink; }
+
+.grid-cont {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: gray;
+  padding: 10px;
+  grid-gap: 10px;
+  margin-bottom: 25px; }
+  .grid-cont div {
+    text-align: center;
+    background: pink;
+    padding: 20px; }
+
+.rotacia {
+  grid-area: 1/1/2/2; }
+
+@media (max-width: 900px) {
+  .rotacia {
+    grid-area: 1/1/4/5; } }
+
+.grid_area {
+  display: grid;
+  background: blue;
+  padding: 15px;
+  grid-gap: 10px;
+  grid-template-areas: 'gio gio gio gio' 'lasha . gogi gogi' 'lasha . . .'; }
+  .grid_area div {
+    background-color: palevioletred;
+    padding: 15px;
+    text-align: center; }
+
+.pirveli {
+  grid-area: gio; }
+
+.meore {
+  grid-area: lasha; }
+
+.mesame {
+  grid-area: gogi; }
+
+#myDIV {
+  width: 200px;
+  height: 200px; }
+  #myDIV .kataa {
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    animation-name: binnn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; }
+
+@keyframes binnn {
   from {
-    background: black; }
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    visibility: hidden; }
   to {
-    background: red; } }
+    width: 200px;
+    height: 200px;
+    transform: rotate(360deg);
+    visibility: visible;
+    border-radius: 50%; } }
+
+#bodyyy {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  background-color: rgba(128, 128, 128, 0.275);
+  animation-name: bgcolor;
+  animation-duration: 2s;
+  animation-iteration-count: 2; }
+
+.grid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 35% auto;
+  grid-template-areas: 'about_me work' 'about_me education';
+  grid-template-rows: 665px auto; }
+  .grid .about_me {
+    grid-area: about_me;
+    padding: 20px 20px 20px 20px; }
+    .grid .about_me .potostvis {
+      border-radius: 5px;
+      position: relative;
+      height: 300px;
+      padding: 20px;
+      border: 2px solid black;
+      animation-name: gif;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      box-shadow: 0px -3px 5px 2px blanchedalmond; }
+      .grid .about_me .potostvis .span1 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        font: 20px bold;
+        color: yellowgreen;
+        animation-name: biniko;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        z-index: 10; }
+      .grid .about_me .potostvis .background_img {
+        border: 2px solid black;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        animation-name: piso_bini;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards; }
+      .grid .about_me .potostvis .saxeli_gvari {
+        position: absolute;
+        bottom: 30px;
+        left: 20px;
+        font-size: 22px;
+        font-weight: bold;
+        animation-name: saxeli_gvari;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        transition: font-weight 5.5s; }
+    .grid .about_me .iconebi {
+      padding: 0 0 0 20px;
+      font-size: 15px;
+      background-color: blanchedalmond;
+      box-shadow: 0px -3px 5px 2px blanchedalmond; }
+      .grid .about_me .iconebi p:nth-child(4) {
+        animation-name: bottom;
+        animation-duration: 5s;
+        animation-fill-mode: forwards; }
+      .grid .about_me .iconebi p:nth-child(5) {
+        font-weight: bolder;
+        font-size: 22px; }
+      .grid .about_me .iconebi p:nth-child(6) {
+        line-height: 50px; }
+      .grid .about_me .iconebi .gamtari {
+        position: relative;
+        border: 1px solid grey;
+        height: 20px;
+        border-radius: 20px;
+        background-color: gray; }
+        .grid .about_me .iconebi .gamtari .gamavali {
+          position: absolute;
+          width: 90%;
+          height: 19px;
+          background-color: #009688;
+          border-bottom-left-radius: 20px;
+          border-top-left-radius: 20px;
+          text-align: center;
+          animation-name: shevseba;
+          animation-duration: 2s;
+          animation-fill-mode: forwards;
+          overflow: hidden;
+          line-height: 20px; }
+      .grid .about_me .iconebi .gamtari + p {
+        line-height: 50px; }
+      .grid .about_me .iconebi .gamtari1 {
+        border: 1px solid grey;
+        height: 20px;
+        border-radius: 20px;
+        background-color: gray; }
+        .grid .about_me .iconebi .gamtari1 .gamavali1 {
+          width: 80%;
+          height: 19px;
+          background-color: #009688;
+          border-bottom-left-radius: 20px;
+          border-top-left-radius: 20px;
+          text-align: center;
+          animation-name: shevseba1;
+          animation-duration: 2s;
+          overflow: hidden;
+          animation-fill-mode: forwards;
+          line-height: 20px; }
+      .grid .about_me .iconebi .gamtari1 + p {
+        line-height: 50px; }
+      .grid .about_me .iconebi .gamtari2 {
+        border: 1px solid gray;
+        height: 20px;
+        border-radius: 20px;
+        background-color: gray; }
+        .grid .about_me .iconebi .gamtari2 .gamavali2 {
+          background-color: #009688;
+          height: 19px;
+          border-bottom-left-radius: 20px;
+          border-top-left-radius: 20px;
+          text-align: center;
+          animation-name: shevseba2;
+          animation-duration: 2s;
+          animation-fill-mode: forwards;
+          overflow: hidden;
+          line-height: 20px; }
+      .grid .about_me .iconebi .gamtari2 + p {
+        line-height: 50px; }
+      .grid .about_me .iconebi .gamtari3 {
+        border: 1px solid gray;
+        height: 20px;
+        border-radius: 20px;
+        background-color: gray; }
+        .grid .about_me .iconebi .gamtari3 .gamavali3 {
+          background-color: #009688;
+          height: 19px;
+          border-bottom-left-radius: 20px;
+          border-top-left-radius: 20px;
+          text-align: center;
+          animation-name: shevseba3;
+          animation-duration: 2s;
+          animation-fill-mode: forwards;
+          overflow: hidden;
+          padding: 3px; }
+      .grid .about_me .iconebi .laguage {
+        line-height: 50px; }
+      .grid .about_me .iconebi .linear {
+        height: 25px;
+        border-radius: 20px;
+        animation-name: gradiant_cimcimi;
+        animation-duration: 1s;
+        animation-iteration-count: infinite; }
+        .grid .about_me .iconebi .linear .gradiant {
+          height: 25px;
+          width: 0;
+          border-radius: 20px;
+          background-image: linear-gradient(to right, red, yellow, green);
+          animation-name: gradiant;
+          animation-duration: 3s;
+          animation-fill-mode: forwards;
+          text-align: center;
+          padding-top: 5px;
+          font-weight: bolder;
+          color: green;
+          overflow: hidden; }
+      .grid .about_me .iconebi .linear + p {
+        line-height: 50px; }
+      .grid .about_me .iconebi .linear_gradiant {
+        width: 50%;
+        height: 25px;
+        border-radius: 20px;
+        animation-name: gradtest;
+        animation-duration: 1s;
+        animation-iteration-count: infinite; }
+        .grid .about_me .iconebi .linear_gradiant .grad_shida {
+          width: 0px;
+          height: 25px;
+          border-radius: 20px;
+          animation-name: grad_shida;
+          animation-duration: 3s;
+          animation-fill-mode: forwards;
+          text-align: center;
+          padding: 5px;
+          overflow: hidden; }
+      .grid .about_me .iconebi .linear_gradiant + p {
+        line-height: 50px; }
+      .grid .about_me .iconebi .qveda_gradaint {
+        height: 25px;
+        border-radius: 20px;
+        background-color: gray;
+        animation-name: cimcim;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        border: 1px solid red; }
+        .grid .about_me .iconebi .qveda_gradaint .qveda_shida {
+          width: 0;
+          height: 25px;
+          border-radius: 20px;
+          animation-name: shevsseba;
+          animation-duration: 3s;
+          animation-fill-mode: forwards;
+          text-align: center;
+          padding: 5px;
+          overflow: hidden; }
+  .grid .work {
+    grid-area: work;
+    padding: 20px 20px 20px 20px;
+    height: 665px; }
+    .grid .work .mtavari_wrapper {
+      background-color: blanchedalmond;
+      box-shadow: 0px -3px 5px 2px blanchedalmond;
+      padding: 20px 20px 0px 20px; }
+      .grid .work .mtavari_wrapper .wrapp_back {
+        position: relative;
+        height: 120px;
+        perspective: 1000px;
+        perspective-origin: 50% 50%;
+        animation-name: perspectivee;
+        animation-duration: 2.1s;
+        animation-fill-mode: forwards; }
+        .grid .work .mtavari_wrapper .wrapp_back .perspectiv {
+          position: absolute;
+          background-color: red;
+          padding: 50px;
+          left: 45%;
+          z-index: 20;
+          height: 100%;
+          transform: rotateX(50deg);
+          animation-name: gaqroba;
+          animation-duration: 3s;
+          animation-fill-mode: forwards; }
+        .grid .work .mtavari_wrapper .wrapp_back .experience {
+          color: #009688;
+          position: absolute;
+          font-size: 30px;
+          font-weight: bold;
+          padding-left: 70px;
+          line-height: 50px;
+          animation-name: experience;
+          animation-duration: 2s;
+          animation-iteration-count: infinite; }
+        .grid .work .mtavari_wrapper .wrapp_back .experience + p {
+          position: absolute;
+          padding-top: 100px;
+          font-size: 18px;
+          font-weight: bold;
+          animation-name: clip;
+          animation-duration: 3s;
+          animation-fill-mode: forwards;
+          clip: rect(0, 10px, 250px, 10px); }
+      .grid .work .mtavari_wrapper .wrappblock {
+        margin-top: 50px;
+        position: relative;
+        height: 120px; }
+        .grid .work .mtavari_wrapper .wrappblock .first_after {
+          padding-left: 50px;
+          line-height: 50px;
+          font-weight: 900; }
+        .grid .work .mtavari_wrapper .wrappblock .first_after::after {
+          content: "Current";
+          background-color: #009688;
+          padding: 3px;
+          border-radius: 5px;
+          color: white;
+          letter-spacing: 2px;
+          font-size: 2px;
+          animation-name: aftter;
+          animation-duration: 1.5s;
+          animation-fill-mode: forwards; }
+        .grid .work .mtavari_wrapper .wrappblock .first_after + p {
+          position: absolute;
+          padding-bottom: 10px;
+          margin-top: 15px;
+          animation-name: mochra_xazi;
+          animation-duration: 2s;
+          animation-fill-mode: forwards;
+          clip: rect(0px, 20px, 40px, 20px); }
+      .grid .work .mtavari_wrapper .webdev {
+        margin-top: 50px; }
+        .grid .work .mtavari_wrapper .webdev p:nth-child(1) {
+          font-size: 18px;
+          font-weight: bold; }
+        .grid .work .mtavari_wrapper .webdev p:nth-child(2) {
+          line-height: 50px;
+          color: #009688;
+          padding-left: 50px; }
+        .grid .work .mtavari_wrapper .webdev p:nth-child(3) {
+          margin-top: 15px;
+          border-bottom: 1px solid #009688;
+          padding-bottom: 25px; }
+      .grid .work .mtavari_wrapper .grapdisiner {
+        position: relative;
+        margin-top: 25px;
+        height: 120px;
+        animation-name: blockheight;
+        animation-duration: 2s;
+        animation-fill-mode: forwards; }
+        .grid .work .mtavari_wrapper .grapdisiner p:nth-child(1) {
+          position: absolute;
+          font-size: 18px;
+          font-weight: bold;
+          top: 0; }
+        .grid .work .mtavari_wrapper .grapdisiner p:nth-child(2) {
+          top: 30px;
+          position: absolute;
+          line-height: 50px;
+          color: #009688;
+          padding-left: 50px; }
+        .grid .work .mtavari_wrapper .grapdisiner .sachiroa {
+          top: 90px;
+          position: absolute; }
+
+.wrappp {
+  background-color: azure; }
+
+@keyframes piso_bini {
+  from {
+    display: none; }
+  to {
+    width: 250px;
+    height: 250px;
+    transform: rotate(360deg);
+    visibility: visible;
+    border: 2px solid yellowgreen; } }
+
+@keyframes gif {
+  50% {
+    background-position: top right;
+    background-size: 160px 70px;
+    border: 2px solid yellowgreen; } }
+
+@keyframes bgcolor {
+  from {
+    background-color: rgba(255, 0, 0, 0.583); }
+  to {
+    background-color: rgba(128, 128, 128, 0.275); } }
+
+@keyframes saxeli_gvari {
+  0% {
+    visibility: hidden; }
+  50% {
+    visibility: hidden; }
+  100% {
+    visibility: visible; } }
+
+@keyframes bottom {
+  from {
+    border-bottom: 1px solid gray; }
+  to {
+    border-bottom: 1px solid #009688; } }
+
+@keyframes shevseba {
+  from {
+    width: 0px; }
+  to {
+    width: 90%;
+    border-radius: 20px;
+    color: green;
+    font-weight: bolder; } }
+
+@keyframes shevseba1 {
+  from {
+    width: 0px; }
+  to {
+    width: 80%;
+    border-radius: 20px;
+    color: rgba(0, 128, 0, 0.638);
+    font-weight: bolder; } }
+
+@keyframes shevseba2 {
+  from {
+    width: 0px; }
+  to {
+    width: 75%;
+    border-radius: 20px;
+    color: rgba(255, 0, 0, 0.385);
+    font-weight: bolder; } }
+
+@keyframes shevseba3 {
+  from {
+    width: 0px; }
+  to {
+    width: 50%;
+    border-radius: 20px;
+    color: red;
+    font-weight: bolder; } }
+
+@keyframes biniko {
+  to {
+    top: 50%;
+    right: 10px;
+    transform: translate(-50% -50%); } }
+
+@keyframes gradiant {
+  to {
+    width: 100%;
+    background-image: linear-gradient(to right, red, yellow, green); } }
+
+@keyframes gradiant_cimcimi {
+  50% {
+    box-shadow: 0px 0px 5px 5px green; } }
+
+@keyframes gradtest {
+  50% {
+    box-shadow: 0 0 3px 3px yellow; } }
+
+@keyframes grad_shida {
+  to {
+    width: 100%;
+    background-image: linear-gradient(to right, red, yellow); } }
+
+@keyframes cimcim {
+  50% {
+    box-shadow: 0 0 2px 2px red; } }
+
+@keyframes shevsseba {
+  to {
+    width: 30%;
+    background-color: red; } }
+
+@keyframes experience {
+  0% {
+    top: 20px;
+    left: 30px; }
+  20% {
+    top: 30px;
+    left: 25px; }
+  50% {
+    top: 40px;
+    left: 25px; }
+  70% {
+    top: 45px;
+    left: 30px; }
+  85% {
+    top: 35px;
+    left: 40px; }
+  95% {
+    top: 25px;
+    left: 30px; }
+  100% {
+    top: 20px;
+    left: 30px; } }
+
+@keyframes clip {
+  30% {
+    clip: rect(0, 250px, 250px, 0);
+    color: blue; }
+  50% {
+    clip: rect(0, 100px, 250px, 50px);
+    color: blue; }
+  100% {
+    clip: rect(0, 300px, 250px, 0);
+    color: #009688; } }
+
+@keyframes aftter {
+  to {
+    font-size: 16px;
+    font-weight: bold; } }
+
+@media (max-width: 668px) {
+  .grid {
+    grid-template-columns: auto;
+    grid-template-areas: 'about_me' 'about_me' 'work' 'education';
+    justify-content: space-around;
+    grid-gap: 20px; }
+  @keyframes biniko {
+    to {
+      top: 50%;
+      right: 50%;
+      transform: translate(-50% -50%);
+      color: aqua; } }
+  .wrapp_bolo {
+    margin-top: 50px; }
+  .float2 {
+    display: none; } }
+
+@media (max-width: 950px) {
+  .grid {
+    grid-template-columns: 100%;
+    grid-template-areas: 'about_me' 'work' 'education';
+    grid-template-rows: auto;
+    justify-content: space-around; }
+  @keyframes biniko {
+    to {
+      top: 50%;
+      right: 50%;
+      transform: translate(-50% -50%);
+      color: aqua; } } }
+
+@keyframes mochra_xazi {
+  0% {
+    clip: rect(0px, 20px, 40px, 20px); }
+  50% {
+    clip: rect(0px, 150px, 40px, 20px);
+    letter-spacing: 10px; }
+  75% {
+    clip: rect(0px, 60px, 250px, 20px);
+    border-bottom: 1px solid red; }
+  100% {
+    clip: rect(0px, 800px, 250px, 0px);
+    border-bottom: 1px solid #009688; } }
+
+@keyframes blockheight {
+  from {
+    height: 0;
+    overflow: hidden; }
+  to {
+    height: 120px;
+    overflow: visible; } }
+
+@keyframes perspectivee {
+  0% {
+    perspective: 60px;
+    perspective-origin: 80% 10%; }
+  50% {
+    perspective: 60px;
+    perspective-origin: 30% 80%; }
+  90% {
+    perspective: 80px;
+    perspective-origin: 110% 150%; } }
+
+@keyframes gaqroba {
+  to {
+    visibility: hidden;
+    transform: rotateX(60deg);
+    padding: 20px; } }
+
+.ident::first-line {
+  text-shadow: 2px 2px 2px #009688; }
+
+.ident {
+  text-shadow: 2px 2px 2px #009688;
+  animation-name: ident;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  text-align: justify; }
+
+@keyframes ident {
+  to {
+    text-indent: 50px;
+    text-shadow: none; } }
+
+.education {
+  grid-area: education;
+  padding: 20px; }
+  .education .wrapp_bolo {
+    background-color: blanchedalmond;
+    box-shadow: 0px -3px 5px 2px blanchedalmond;
+    padding: 20px;
+    position: relative;
+    height: 350px; }
+    .education .wrapp_bolo .opasiti {
+      position: absolute;
+      width: 90%;
+      height: 90%;
+      background-color: blanchedalmond;
+      opacity: 0;
+      animation-name: opaas;
+      animation-duration: 2s;
+      animation-fill-mode: forwards;
+      outline: 2px solid red; }
+      .education .wrapp_bolo .opasiti .display {
+        float: left;
+        width: 50%; }
+        .education .wrapp_bolo .opasiti .display .educ {
+          font-size: 30px;
+          font-weight: bold;
+          animation-name: line_height;
+          animation-duration: 2s;
+          animation-fill-mode: forwards; }
+        .education .wrapp_bolo .opasiti .display .ravii {
+          font-size: 18px;
+          line-height: 50px; }
+        .education .wrapp_bolo .opasiti .display .ravii + div {
+          font-size: 17px;
+          line-height: 60px;
+          padding-left: 50px; }
+      .education .wrapp_bolo .opasiti .float2 {
+        float: left;
+        width: 50%; }
+        .education .wrapp_bolo .opasiti .float2 .imge {
+          display: block;
+          width: 100px;
+          height: 300px;
+          object-fit: cover;
+          object-position: 0% 0%;
+          margin: auto;
+          animation-name: gadasvlaxedi;
+          animation-duration: 3s;
+          animation-iteration-count: infinite; }
+  .education .boloooo {
+    padding: 0px 20px 20px 20px;
+    background-color: blanchedalmond;
+    box-shadow: 0px -3px 5px 2px blanchedalmond; }
+    .education .boloooo p:nth-child(1) {
+      font-size: 18px;
+      font-weight: bold; }
+    .education .boloooo p:nth-child(2) {
+      font-size: 17px;
+      line-height: 55px;
+      padding-left: 50px;
+      background-image: url(../scss/img/calendar.png);
+      background-size: 40px 40px;
+      background-repeat: no-repeat;
+      background-position: left center; }
+    .education .boloooo p:nth-child(3) {
+      font-size: 16px;
+      border-bottom: 1px solid #009688;
+      padding-bottom: 20px; }
+
+@keyframes line_height {
+  100% {
+    padding-left: 50px;
+    line-height: 50px; } }
+
+@keyframes gadasvlaxedi {
+  0% {
+    object-position: 0% 0%; }
+  50% {
+    object-position: 50% 0%; }
+  50% {
+    object-position: 100% 0%; } }
+
+@keyframes opaas {
+  0% {
+    opacity: 0.2; }
+  50% {
+    opacity: 0.5;
+    outline: 10px solid blue;
+    outline-offset: 5px; }
+  100% {
+    opacity: 1;
+    outline: none; } }
+
+.witelii {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  z-index: -10;
+  top: 200px;
+  animation-name: qvedidangasrialeba;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 2;
+  border-radius: 10px; }
+
+.yviteli {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background-color: yellow;
+  z-index: -10;
+  top: 300px;
+  animation-name: qvedidangasrialeba;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 2;
+  border-radius: 10px; }
+
+.mwvane {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background-color: green;
+  z-index: -10;
+  top: 400px;
+  animation-name: qvedidangasrialeba;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 2;
+  border-radius: 10px; }
+
+@keyframes qvedidangasrialeba {
+  0% {
+    left: 5%; }
+  80% {
+    left: 90%;
+    width: 0; }
+  100% {
+    left: 100%;
+    width: 0; } }

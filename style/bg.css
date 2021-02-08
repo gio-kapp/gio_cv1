@@ -15,3 +15,137 @@
     background: url(../scss/img/viber_image_2020-10-28_12-19-45.jpg) no-repeat center;
     background-size: cover;
 }
+
+.back{
+    background: url(../scss/img/viber_image_2020-10-28_12-19-45.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+.kataa{
+    background-image: url(../scss/img/viber_image_2020-10-28_12-19-45.jpg);
+    background-size: cover;
+    
+}
+/* aq shemovitane backgroundad gifi */
+.potostvis{
+    background-image: url(../scss/img/giphy.gif);
+    background-repeat: repeat-x;
+    background-size: 120px 60px;
+    background-position: top left;
+    
+}
+/* aq shemovitane backgroundad imige */
+.background_img{
+    background-image: url(../scss/img/viber_image_2020-10-28_12-19-45.jpg);
+    background-size: cover; 
+    background-position: center;
+    
+}
+.iconebi p:nth-child(1){
+    background-image: url(../scss/img/blueicons.png);
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 50px;
+    line-height: 50px;
+}
+
+/* aq iconebi shemovitane backgraundad da gavstile p aragrafebi */
+.iconebi p:nth-child(2){
+    background-image: url(../scss/img/hhoome.png);
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 50px;
+    line-height: 50px;
+}
+.iconebi p:nth-child(3){
+    background-image: url(../scss/img/emailicons.jpg);
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 50px;
+    line-height: 50px;
+}
+.iconebi p:nth-child(4){
+    background-image: url(../scss/img/fafafa.png);
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid gray;
+    
+}
+/* iconebi end */
+
+/* iconebis shemdeg start */
+.iconebi p:nth-child(5){
+    background-image: url(../scss/img/A_Blue_Star.png);
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    background-position: left center;
+    padding-left: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+}
+/* aq shemova globusis iconi */
+.gamtari3+p{
+    margin-top: 20px;
+    line-height: 50px;
+    font-size: 22px;
+    font-weight: bolder;
+    background-image: url(../scss/img/glob.png);
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 50px;
+
+}
+/* daiwko marjvena pirvelis shigneuloba :D */
+.experience{
+    background-image: url(../scss/img/blueicons.png);
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+/* mini calendar back */
+.first_after{
+    background-image: url(../scss/img/calendar.png);
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: left bottom;
+}
+
+.backpotocal{
+    background-image: url(../scss/img/calendar.png);
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: left bottom;
+
+}
+.backpotocal1{
+    background-image: url(../scss/img/calendar.png);
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: left bottom;
+
+}
+
+/* bolo back */
+.educ{
+    background-image: url(../scss/img/A_Blue_Star.png);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+/* damtavrebis shemotanebi */
+.ravii+div{
+    background-image: url(../scss/img/calendar.png);
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: left center;
+}

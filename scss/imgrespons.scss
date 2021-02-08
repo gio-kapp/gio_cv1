@@ -1,0 +1,179 @@
+.binn{
+    width: 100%;
+    height: auto;
+}
+
+.binn1{
+    max-width: 100%;
+    height: auto;
+}
+
+// backgroun
+
+.back{
+    width: 100%;
+    height: 450px;
+    border: 1px solid red;
+}
+
+// griddd
+
+.gr{
+    // deda unda ikos display gridi rom shemdeg badeshi ikos moqniloba
+    display: grid;
+    // am property t ganvsazghvravt tu ramdeni columi udna ikos am shemtxvevashi sami
+    grid-template-columns: auto auto auto;
+    // modi mivcet bades ukana peri
+    background-color: rgba(0, 0, 255, 0.474);
+    // shvili elementebi davashorot dedas rom uket vioreintaicot paddingebit
+    padding: 20px;
+    // vertikalebis dashorebas ertmanetidan aketebs gap properti
+    // grid-column-gap:10px;
+    // // horizontaluradadc shegvidzlia
+    // grid-row-gap: 25px;
+    // shegvidzlia mokledac chavwerot
+    grid-gap:10px 50px ;
+    // xazebs vertikalurad ewodeba columnis linebi da horizontalurad ros
+    // linebi , amis daxmarebit shegvidzlia shvili romelime lementi ganvsazghvrot tu
+    // rogor unda ikos gantavsebuli
+    margin-bottom: 50px;
+
+    .shvili{
+        // modi shvilebs mivcet peri erti klasit rom ganvasxvaot dedisgan
+        background-color: pink;
+        // cahwerili teqsti gavcentrot
+        text-align: center;
+        // davumatot padingebi
+        padding: 20px;
+        // shegvidzlia davumatot borderebi
+        border: 1px solid black;
+        
+        
+    }
+    
+}
+
+// linebze mushaoba 
+.tessst{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+// columns
+// tu chven gvinda 4 sveti vwert otxjer "autos" dashida elementebi daiyofa ernair
+// zomis svetebad tu 4 ze meti elementi gvaqvs avtoamturad daemateba axali row da iq
+// chajdeba
+.gr-cont{
+    display: grid;
+    // ai amas vgulisxmobt
+    // grid-template-columns: auto auto auto auto;
+    // shegvidzlia mivcet zoembic
+    grid-template-columns: 20% 20% 30% auto;
+    // shegvidzlia titoeul xazs mivcet zoma
+    // grid-template-rows: 50px 150px 100px;
+    padding: 15px;
+    grid-gap:20px 10px ;
+    div{
+        background-color: yellowgreen;
+        text-align: center;
+        padding: 20px;
+    }
+}
+// ganvsazghvrot justyfi contenti , epeqtistvis shvilebis totall width undaiko
+// dedis width ze naklebi rom davinaxot shedegi
+
+// jystify
+
+.ggrid{
+    display: grid;
+    grid-template-columns: 70px 70px 70px;
+    background: blue;
+    padding: 15px;
+    grid-gap:25px;
+    height: 200px;
+    grid-template-rows: 20px 20px;
+    // justify gansazghvravs tu kontentma rogori mdebareoba unda daikaos horizontshi
+
+    justify-content: center;
+    // ganvixilot alingn properti
+    align-content: end;
+    div{
+        padding: 15px;
+        background: pink;
+    }
+}
+// magalitebi grid itemze
+
+.grid-cont{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: gray;
+    padding: 10px;
+    grid-gap:10px;
+    margin-bottom: 25px;
+    
+    div{
+        text-align: center;
+        background: pink;
+        padding: 20px;
+    }
+}
+
+// shegvidzlia gridis wevri ganvatavsot enbismier adgilze
+
+.rotacia{
+    grid-area: 1/1/2/2;
+    
+}
+
+
+@media (max-width:900px){
+    .rotacia{
+        grid-area: 1/1/4/5;
+        
+    }
+}
+// ganvsazghvrot shvilis mdgomareoba columnebis da row ebit
+// .shvidi{
+//    grid-area: 1/1/span 3/span 3;
+// }
+
+// // .cxra{
+// //     grid-area: 2/6/5/3;
+// // }
+
+// grid-template-area ze magalitebi
+// shegvidzlia saxelebi mivanichot adgilebs gridshi
+
+.grid_area{
+    display: grid;
+    background: blue;
+    padding: 15px;
+    grid-gap:10px;
+    
+   grid-template-areas: 
+   'gio gio gio gio'
+   'lasha . gogi gogi'
+   'lasha . . .';
+    
+    
+    div{
+        background-color: palevioletred;
+        padding: 15px;
+        text-align: center;
+
+    }
+}
+
+
+.pirveli{
+    grid-area: gio;
+}
+.meore{
+    grid-area: lasha;
+}
+.mesame{
+    grid-area: gogi;
+}
